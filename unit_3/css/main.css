@@ -1,0 +1,26 @@
+h1{
+	color: black;
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #5CA3E2;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+#slogan{
+	text-align: left;
+	background: url("https://cdn.pixabay.com/photo/2016/11/21/15/34/bicycle-1845992_960_720.jpg");
+	color: #3D4038;
+	width: 865px;
+	height: 622px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+body{
+	background-color: #A1C2FE;
+	font-family: "Lucida Console", Monaco, monospace;
+}
