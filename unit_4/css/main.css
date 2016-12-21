@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+#slogan{
+	background:url(../images/person_exercising.jpg) no-repeat center center scroll;
+	background-size:cover;
+	height:750px;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:60px;
+	background-color:#BABABA;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:0.5em;
+}
+
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:42px;
+	color:#575151;
+	text-align:center;
+	margin:1em;
+	padding-top:1em;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size:32px;
+	color:#575151;
+	text-align:center;
+	margin:0.5em;
+}
+
+nav{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:20px;
+	text-align:right;
+	background-color:#E8E8E8;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+.navlinks{
+	padding:1em;
+}
+
+h4{
+	font-family:'Josefin Sans', sans-serif;
+	font-size:32px;
+	text-align: center;
+	color:black;
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	font-family:'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+a{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#hiw{
+	background-color:#EDEDED;
+	padding:2em;
+}
+
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:20px;
+	background-color:#BABABA;
+	text-align: right;
+	margin-top: 2em;
+	padding-bottom:0.5em;
+	padding-top: 0.5em;
+}
+
+#bt{
+	background-color:#EDEDED;
+	padding:1.5em;
+	margin-top:1.5em;
+}
+
+#questions{
+	margin-top:1.5em;
+}
+
+#footer_1{
+	padding-right:1em;
+}
+
+#footer_2{
+	padding-right:0.5em;
+}
