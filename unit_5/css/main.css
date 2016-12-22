@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border box;
+}
+
+/*header = #FFED74
+nav = #E8C66A
+aside = #FFC675
+article = #E89C6C
+footer = #FF957E
+div / section = #FFE2B8*
+border: 1px black solid;
+padding: 20px;*/
+
+body{
+	font-size: 16px;/* 1em = 16px*/
+	font-family:'Josefin Sans', sans-serif;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3.75em;
+	/*background-color: #BABABA;
+	padding: 0.5em;*/
+}
+
+nav{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: #E8C66A; /*#E8E8E8*/
+	border: 1px black solid;
+    padding: 20px;
+	/*padding: 0.5em 0em;*/
+}
+
+nav a{
+	padding-right: 1.8em;
+}
+
+a{
+	font-family:'Raleway', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#slogan{
+	/*background:url(../images/person_exercising.jpg) no-repeat center center scroll;*/
+	background-size: cover;
+	height:750px;
+}
+
+#slogan_headline{
+	font-family: 'Raleway', sans-serif;
+	font-size: 3em;
+	color: #575151;
+	text-align: center;
+	/*padding: 6em 0 0;*/
+}
+
+#slogan_subheading{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #575151;
+	text-align:center;
+	/*padding: 0.5em 0 0;*/
+}
+
+h3{
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+#hiw{
+	/*background-color: #EDEDED;*/
+	padding: 0.5em 0em;
+}
+
+.hiw_box{
+	width: 23em;
+	/*background-color: #EDEDED;*/
+	margin: 2.5em auto;
+}
+
+h4{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: black;
+	padding-bottom: 0.5em;
+}
+
+
+p{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 1.6em;
+	padding-top: 0.5em;
+}
+
+
+#expro{
+	/*padding: 0.5em 0em;*/
+}
+
+.expro_box{
+	width: 23em;
+	margin: 2.5em auto;
+}
+
+.expro_box h4{
+	/*padding-top: 0.5em;*/
+}
+
+#questions{
+	/*ackground-color: #EDEDED;*/
+	/*padding: 1.5em 0 2em 0;*/
+}
+
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: right;
+	background-color: #FF957E; /*#BABABA*/
+	border: 1px black solid;
+	padding: 20px;
+   /* padding: 0.6em;*/
+}
+
+#footer_1{
+	font-size: 1em;
+/*	padding-right:1em;*/
+}
+
+#footer_2{
+	font-size: 1em;
+/*	padding-right:0.5em;*/
+}
