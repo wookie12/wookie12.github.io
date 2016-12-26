@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border box;
+}
+
+body{
+	font-size: 16px;/* 1em = 16px*/
+	font-family:'Josefin Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3.75em;
+	background-color: #BABABA;
+	padding: 0.5em;
+}
+
+nav{
+	background-color: #E8E8E8; 
+	padding: 0 1.2em;
+}
+
+nav a{
+	color: #524C4C;
+	font-family:'Raleway', sans-serif;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center; 
+	display: block;
+	float: left;
+	padding: 1.2em;
+	width: 11em;
+}
+
+nav a:hover{
+	background-color: #81D997;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#slogan{
+	background:url(../images/person_exercising.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:750px;
+}
+
+#slogan_headline{
+	font-family: 'Raleway', sans-serif;
+	font-size: 3em;
+	font-weight: 800;
+	color: #36A865;
+	text-align: center;
+	padding: 6em 0 0;
+}
+
+#slogan_subheading{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #36A865;
+	font-weight: 800;
+	text-align: center;
+	padding: 0.5em 0 0;
+}
+
+h3{
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 0.7em;
+}
+
+#hiw_1{
+	background-color: #EDEDED;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+.hiw_top{
+	width: 42%;
+	padding: 2%;
+	float: left;
+}
+
+h4{	
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: black;
+	padding-bottom: 0.5em;
+}
+
+.hiw_top > img{
+	padding-left: 20%;
+}
+
+p{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 1.6em;
+	width: 60%;
+	padding-left: 20%;
+}
+
+#or_box{
+	width: 3%;
+	padding-top: 9.5%;
+}
+
+#hiw_2{
+	padding-left: 25px;
+	background-color: #EDEDED;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+.hiw_bottom{
+	width: 42%;
+	padding: 2.5%;
+	float: left;
+}
+
+.hiw_bottom > img{
+	padding-left: 20%;
+}
+
+#exprog_1{
+	padding-left: 100px;
+}
+
+.exprog_top{
+	width: 40%;
+	padding: 2.5%;
+	float: left;
+}
+
+.exprog_top > img{
+	padding-left: 30px;
+}
+
+.exprog_top > p{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#exprog_2{
+	padding-left: 100px;
+}
+
+.exprog_bottom{
+	width: 40%;
+	padding: 2.5%;
+	float: left;
+}
+
+.exprog_bottom > img{
+	padding-left: 30px;
+}
+
+.exprog_bottom > p{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#questions{
+	background-color: #EDEDED;
+	padding-bottom: 30px;
+}
+
+#questions > a{
+	font-size: 1.5em;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: right;
+	background-color: #BABABA; 
+}
+
+.footer{
+	float: right;
+	width: 200px;
+	height: 30px;
+	padding-top: 20px;
+	padding-right: 20px;
+	text-decoration: none; 
+}
